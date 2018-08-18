@@ -30,6 +30,6 @@ class String
   def count_sentences
    sentences = []
    sentences = self.split(/\.|\?|\!/)
-   count_sentences =   sentences.count{|x| x.length > 1} 
+   count_sentences =  sentences.count{|x| x.length > 1} 
   end
 end
