@@ -7,14 +7,16 @@ class String
       TRUE
     else 
       FALSE
+    end
   end
 
   def question?
-if self.end_with?(".")
+    if self.end_with?(".")
       TRUE
     else 
       FALSE
-  end
+    end
+   end
 
   def exclamation?
 
