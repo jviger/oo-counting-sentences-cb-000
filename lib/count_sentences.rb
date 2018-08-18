@@ -28,6 +28,6 @@ class String
 
 
   def count_sentences
-
+   sentences = self.split(/'|,|?|!/)
   end
 end
